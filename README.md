@@ -46,7 +46,7 @@ student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (
 
 ```
 
-![Students_Data_Adjusted.png]
+![Students_Data_Adjusted](Students_Data_Adjusted.png)
 
 - The two dataframes were merged for further analyses. 
 
@@ -119,11 +119,11 @@ per_school_summary_df["School Size"] = pd.cut(per_school_summary_df["Total Stude
 
 The original district summary (before adjusting for THS 9th graders) was as below:
 
-![District_Summary_original.png]
+![District_Summary_original](District_Summary_original.png)
 
 After replacing the THS 9th graders' scores by NaNs, the recalculated district summary is as below which is **only marginally different** than the original:
 
-![District_Summary_Adjusted.png]
+![District_Summary_Adjusted](District_Summary_Adjusted.png)
 
 As we can see both math and reading test scores are almost same before and after adjustment while the overall passing rate decreases only slightly.
 
@@ -133,11 +133,11 @@ In the original analysis, THS recorded a 91% overall passing rate as well as 93%
 
 Original school summary:
 
-![Original_School_Summary.png]
+![Original_School_Summary](Original_School_Summary.png)
 
 School summary excluding 9th grader:
 
-![School_Summary_Excluding_THS_9th.png]
+![School_Summary_Excluding_THS_9th](School_Summary_Excluding_THS_9th.png)
 
 Adjusting the data for 9th graders had a **very significant** impact on THS test scores. It brings the overall passing rate down to 65% and passing rates in the individual subjects to below 70%.
 
@@ -147,7 +147,7 @@ When this is done, **no significant change** can be seen from the original resul
 
 Adjusted school summary:
 
-![School_Summary_THS_10th_12th.png]
+![School_Summary_THS_10th_12th](School_Summary_THS_10th_12th.png)
 
 
 ### Schools performance
@@ -156,12 +156,12 @@ As removing the THS 9th graders had very little impact on its passing rates, con
 
 Original analysis:
 
-![Top_Five_schools_Original]
+![Top_Five_schools_Original](Top_Five_schools_Original.png)
 
 
 Adjusted analysis:
 
-![Top_Five_Schools_Adjusted]
+![Top_Five_Schools_Adjusted](Top_Five_Schools_Adjusted.png)
 
 
 ### Adjusted averages scores by grade
@@ -170,11 +170,11 @@ In original analyses, math and reading score averages for THS 9th graders were 8
 
 Adjusted math scores by grade:
 
-![Math_Scores.png]
+![Math_Scores](Math_Scores.png)
 
 Adjusted reading scores by grade:
 
-![Reading_Scores.png]
+![Reading_Scores](Reading_Scores.png)
 
 
 ### Scores by school budget
@@ -183,11 +183,11 @@ The effect of adjusting THS 9th graders' scores was **insignificant** on results
 
 Original analysis:
 
-![Spending_Summary_Original.png]
+![Spending_Summary_Original](Spending_Summary_Original.png)
 
 Adjusted analysis:
 
-![Spending_Summary_Adjusted.png]
+![Spending_Summary_Adjusted](Spending_Summary_Adjusted.png)
 
 THS falls in the $630-$644/student budget range.
 
@@ -197,11 +197,11 @@ Again, the effect of replacing THS 9th graders' scores with NaNs on scores by sc
 
 Original analysis:
 
-![School_Size_Original.png]
+![School_Size_Original](School_Size_Original.png)
 
 Adjusted analysis:
 
-![School_Size_Adjusted.png]
+![School_Size_Adjusted](School_Size_Adjusted.png)
 
 THS is a medium size school as defined in the analyses.
 
@@ -211,11 +211,11 @@ THS is a charter school. The impact of adjusting its 9th graders score on the sc
 
 Original analysis:
 
-1[School_Type_Original.png]
+1[School_Type_Original](School_Type_Original.png)
 
 Adjusted analysis:
 
-![School_Type_Adjusted.png]
+![School_Type_Adjusted](School_Type_Adjusted.png)
 
 
 ## Summary
